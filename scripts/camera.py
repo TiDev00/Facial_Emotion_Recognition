@@ -8,6 +8,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
+        # change path to 0 to use webcam images
         self.video = cv2.VideoCapture('../data/presidential_debate.mp4')
 
     def __del__(self):
